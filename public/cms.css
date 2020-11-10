@@ -1,0 +1,24 @@
+header nav a{
+  padding: 0 8px;
+}
+
+main nav{
+  min-height: 90vh;
+  background: #333;
+}
+
+main nav a{
+  display: flex;
+  padding:16px 24px;
+  background: #333;
+  border-bottom: 2px solid black;
+  text-align: center;
+  width: 100%;
+  /* justify-content: center; */
+  color:white;
+}
+
+main nav a:hover{
+  background: silver;
+  text-decoration: none;
+}

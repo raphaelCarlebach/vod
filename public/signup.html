@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="cms.css">
+  <title>Document</title>
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="axios.min.js"></script>
+  <script type="module" src="js_vodCms/appSign.js"></script>
+  
+</head>
+
+<body>
+  <!-- <header> -->
+    <main class="container-fluid p-0">
+      <div class="d-flex p-0">
+        <nav class="col-2  m-0 p-0">
+         
+        </nav>
+        <div class="col-9" id="display_info">
+         
+          <div class="container">
+            <h1>Sign up new User to system</h1>
+            <form id="id_form" class="col-lg-8 border p-4 shadow rounded-lg"> 
+              <div class="form-group">
+                <label for="exampleInputEmail1">UserName</label>
+                <input minlength="2" required id="id_user_input" type="text" class="form-control" placeholder="Enter user">
+              
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input required id="id_email_input" type="email" class="form-control" placeholder="Enter email">
+              
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input required minlength="3" id="id_pass_input" type="password" class="form-control" placeholder="Password">
+              </div>
+            
+              <button  type="submit" class="btn btn-success">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="ui/headerUi.js"></script>
+    <script src="ui/sideDisplay.js"></script>
+</body>
+
+</html>
